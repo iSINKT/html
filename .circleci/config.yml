@@ -7,7 +7,7 @@ jobs:
       - image: arvindr226/alpine-ssh
     steps:
       - checkout
-      - run: ssh -oStrictHostKeyChecking=no -p "0223" -v $stesha@$stesha "/var/www/html/script"
+      - run: ssh -oStrictHostKeyChecking=no -p "0223" -v $root@$stesha "/var/www/html/script"
 
 # Orchestrate our job run sequence
 workflows:
