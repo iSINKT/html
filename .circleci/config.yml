@@ -7,7 +7,7 @@ jobs:
       - image: arvindr226/alpine-ssh
     steps:
       - checkout
-      - run: ssh -oStrictHostKeyChecking=no -v circle@stesha "touch deploy"
+      - run: ssh -oStrictHostKeyChecking=no -v circle "touch deploy"
 
 # Orchestrate our job run sequence
 workflows:
