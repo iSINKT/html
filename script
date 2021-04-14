@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo service nginx stop 
-sudo git pull origin master
-sudo service nginx start
-sudo service nginx status
+service nginx stop 
+git pull origin master
+service nginx start
+service nginx status
