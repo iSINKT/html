@@ -10,17 +10,15 @@ jobs:
           fingerprints:
             - "SHA256:yBwMjPplkIacDlyh9xxRCpfU+iNG/B84ItvZyAZq7co"
       - checkout
-      - run:  ssh -l client 188.242.194.155 "/var/www/html/script"
+      - run:  ssh -l stesha 188.242.194.155 "/var/www/html/script"
 
 # Orchestrate our job run sequence
 workflows:
   version: 2
-  build-project:    
+  build-project:
     jobs:
       - pull-and-build:
-          steps:         
-            filters:
-              branches:
-                only:
+          filters:
+            branches:
+              only:
                 - master
-                
