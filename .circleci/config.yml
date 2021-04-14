@@ -7,7 +7,7 @@ jobs:
       - image: arvindr226/alpine-ssh
     steps:
       - checkout
-      - run: ssh -oStrictHostKeyChecking=no -v circleci@188.242.194.155 "sudo ./script ; 0223"
+      - run: ssh -oStrictHostKeyChecking=no -v circleci@188.242.194.155 "sudo ./script"
 
 # Orchestrate our job run sequence
 workflows:
