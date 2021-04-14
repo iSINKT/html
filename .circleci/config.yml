@@ -7,7 +7,7 @@ jobs:
       - image: arvindr226/alpine-ssh
     steps:
       - checkout
-      - run: ssh -o StrictHostKeyChecking=no -v root@188.242.194.155 "cd /var/www/html; sudo touch deploy12123"
+      - run: ssh -o StrictHostKeyChecking=no -v root@188.242.194.155 "cd /var/www/html; sudo touch deploy12123 -S 0223"
 
 # Orchestrate our job run sequence
 workflows:
