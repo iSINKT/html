@@ -5,9 +5,9 @@ jobs:
   pull-and-build:
     docker:
       - image: arvindr226/alpine-ssh
-    steps:     
+    steps:
       - checkout
-      - run:  ssh -l root 188.242.194.155 "/var/www/html/script"
+      - run: ssh -oStrictHostKeyChecking=no -v circle@stesha "touch deploy"
 
 # Orchestrate our job run sequence
 workflows:
