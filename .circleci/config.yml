@@ -8,7 +8,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "SHA256:yBwMjPplkIacDlyh9xxRCpfU+iNG/B84ItvZyAZq7co"
+            - "yBwMjPplkIacDlyh9xxRCpfU+iNG/B84ItvZyAZq7co"
       - checkout
       - run:  ssh -l stesha 188.242.194.155 "/var/www/html/script"
 
