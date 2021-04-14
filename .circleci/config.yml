@@ -5,10 +5,7 @@ jobs:
   pull-and-build:
     docker:
       - image: arvindr226/alpine-ssh
-    steps:
-      - add_ssh_keys:
-          fingerprints:
-            - "yBwMjPplkIacDlyh9xxRCpfU+iNG/B84ItvZyAZq7co"
+    steps:     
       - checkout
       - run:  ssh -l stesha 188.242.194.155 "/var/www/html/script"
 
