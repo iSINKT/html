@@ -7,7 +7,7 @@ jobs:
       - image: arvindr226/alpine-ssh
     steps:
       - checkout
-      - run:  ssh  -l stesha 188.242.194.155  "/var/www/html/script"
+      - run:  ssh  -l stesha 188.242.194.155 "/var/www/html/script"
 
 # Orchestrate our job run sequence
 workflows:
