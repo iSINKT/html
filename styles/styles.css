@@ -1,0 +1,30 @@
+h1 {
+    color:red;
+}
+#first_header {
+    border: 7px double purple;
+    background: darkblue;
+    border-radius: 30px 10px;
+    margin: 100px;
+    padding: 20px;
+    text-align: center;
+}
+#second_header {
+    font-size: 20px;
+    color: darkgoldenrod;
+}
+body {
+    background-image: url(../picture/62fcf4d244990437144bfaeae4051144.jpg);
+}
+img {
+    margin: 0% 50% 0% 43%;
+}
+table {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    float: right;
+}
+a {
+    color: darkgreen;
+    background-color: rgba(0, 200, 0, 0.3);
+}
