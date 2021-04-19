@@ -3,7 +3,6 @@ h1 {
 }
 #first_header {
     border: 7px double purple;
-    background: darkblue;
     border-radius: 30px 10px;
     margin: 100px;
     padding: 20px;
@@ -13,18 +12,46 @@ h1 {
     font-size: 20px;
     color: darkgoldenrod;
 }
-body {
-    background-image: url(../picture/62fcf4d244990437144bfaeae4051144.jpg);
-}
 img {
-    margin: 0% 50% 0% 43%;
+    margin: 5% 50% 5% 43%;
 }
 table {
     margin-top: 50px;
     margin-bottom: 50px;
     float: right;
 }
-a {
-    color: darkgreen;
-    background-color: rgba(0, 200, 0, 0.3);
+nav {
+    width: 960px;
+    margin: 0 auto;
+}
+nav:before {
+    content: '';
+    display: block;
+    height: 50px;
+    width: 100%;
+    background: antiquewhite;
+    position: absolute;
+    left:0;
+    z-index: -1;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+}
+ul li {
+    float: left;
+}
+ul li a {
+    color: darkblue;
+    display: block;
+    height: 50px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+}
+ul li a:hover {
+    background: dimgray;
 }
