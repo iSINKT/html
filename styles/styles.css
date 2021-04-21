@@ -1,12 +1,99 @@
+body {
+    background-image: url("../picture/background43.png");
+}
+header {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Cuprum', sans-serif;
+}
+.dws-menu {
+    margin: 0;
+    padding: 0;
+}
+.dws-menu ul,
+.dws-menu ol {
+    list-style: none;
+}
+.dws-menu > ul {
+    display: flex;
+    justify-content: center;
+}
+.dws-menu > ul li a {
+    display: block;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+50,e1e1e1+51,f6f6f6+100;White+Gloss+%231 */
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+    padding: 15px 30px 15px 40px;
+    font-size: 14px;
+    color: #454547;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+}
+.dws-menu > ul li {
+    position: relative;
+    border-right: 1px solid darkgray;
+
+}
+.dws-menu > ul li > a i.fa {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    font-size: 18px;
+}
+.dws-menu > ul li:first-child {
+    border-left: 1px solid darkgray;
+}
+.dws-menu > ul li:last-child {
+    border-right: 1px solid darkgray;
+}
+.dws-menu li a:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+50,e1e1e1+51,f6f6f6+100;White+Gloss+%231 */
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+    color: black;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.4s ease;
+}
+
+
+
+
+/*Sub menu*/
+.dws-menu li ul {
+    position: absolute;
+    min-width: 150px;
+    display: none;
+}
+
+.dws-menu li > ul li {
+    border: 1px solid grey;
+    margin: 1px;
+}
+.dws-menu li > ul li a {
+    padding: 10px;
+    text-transform: none;
+    background: #e4e4e5;
+}
+.dws-menu li > ul li ul {
+    position: absolute;
+    right: -150px;
+    top: 0;
+}
+.dws-menu li:hover > ul {
+    display: block;
+}
+
+/*
 h1 {
     color:red;
-}
-#first_header {
-    border: 7px double purple;
-    border-radius: 30px 10px;
-    margin: 100px;
-    padding: 20px;
-    text-align: center;
 }
 #second_header {
     font-size: 20px;
@@ -20,6 +107,7 @@ table {
     margin-bottom: 50px;
     float: right;
 }
+
 nav {
     width: 960px;
     margin: 0 auto;
@@ -27,7 +115,7 @@ nav {
 nav:before {
     content: '';
     display: block;
-    height: 50px;
+    height: 65px;
     width: 100%;
     background: antiquewhite;
     position: absolute;
@@ -44,14 +132,14 @@ ul li {
     float: left;
 }
 ul li a {
-    color: darkblue;
+    color: black;
     display: block;
     height: 50px;
-    padding: 0 30px;
+    padding: 15px 30px 15px 40px;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 50px;
 }
 ul li a:hover {
     background: dimgray;
-}
+}*/
