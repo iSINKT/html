@@ -37,7 +37,6 @@ header {
 .dws-menu > ul li {
     position: relative;
     border-right: 1px solid darkgray;
-
 }
 .dws-menu > ul li > a i.fa {
     position: absolute;
